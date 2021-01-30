@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "reset";
+
+body {
+  text-align: center;
+  font-size:25px;
+  font-family: 'Roboto', sans-serif;
+  button {
+    padding: 5px;
+    width: 45px;
+    margin: 5px;
+    font-size:25px;
+    color: white;
+    border: 1px black solid;
+  }
+  .decrease-btn {
+    background-color: red;
+  }
+
+  .increase-btn {
+    background-color: green;
+  }
+  .likes-counter {
+    margin:10px;
+  }
+  .likes {
+    margin-top: 50px;
+  }
+}
